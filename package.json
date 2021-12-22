@@ -1,0 +1,41 @@
+{
+  "name": "mern-practice",
+  "version": "1.0.0",
+  "description": "practicing and learning mern technologies",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerjoWeb/MERN-Practice.git"
+  },
+  "keywords": [
+    "mern",
+    "node",
+    "react",
+    "express",
+    "mongo"
+  ],
+  "author": "Sergey Ivanov <sergeyweb87@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SerjoWeb/MERN-Practice/issues"
+  },
+  "homepage": "https://github.com/SerjoWeb/MERN-Practice#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.5.1",
+    "nodemon": "^2.0.15"
+  }
+}

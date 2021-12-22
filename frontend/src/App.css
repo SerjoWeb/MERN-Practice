@@ -1,0 +1,8 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.auth h1 {
+    text-align: center;
+}
+.auth button:last-child {
+    margin-left: 10px;
+}

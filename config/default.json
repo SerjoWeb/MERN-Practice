@@ -1,0 +1,6 @@
+{
+    "baseURL": "http://localhost:5000",
+    "port": 5000,
+    "mongoURI": "mongodb://<db_user>:<db_password>@cluster0-shard-00-00.cpxwy.mongodb.net:27017,cluster0-shard-00-01.cpxwy.mongodb.net:27017,cluster0-shard-00-02.cpxwy.mongodb.net:27017/appDB?ssl=true&replicaSet=atlas-2sxtdv-shard-0&authSource=admin&retryWrites=true&w=majority",
+    "jwtSecret": "mern practice"
+}
